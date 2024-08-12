@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #7158e2, #3ae374,purple);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.stopwatch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.time-box {
+    width: 80px;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.label-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.label-box span {
+    width: 80px;
+    margin: 0 10px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
